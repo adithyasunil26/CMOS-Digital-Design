@@ -1,0 +1,18 @@
+*RC Circuit
+
+*Circuit components
+R1 in out 1k
+C2 out 0 1n
+
+*INPUT SIGNAL
+*vin input 0 type_signal initial final delay trise tfall ton time_period
+vin in 0 pulse 0 5 0ns 100ns 100ns 10us 20us
+
+*transient analysis
+*.tran step_size stop_time
+.tran 10n 60u
+
+.control
+run
+plot v(in) v(out)
+.endc

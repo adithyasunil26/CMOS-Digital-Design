@@ -1,0 +1,16 @@
+*MOS_Characterization
+
+.include ../../TSMC_180nm.txt
+
+VGS G gnd 1.8V
+VDS D gnd 1V
+
+*M1 DRAIN GATE SOURCE BODY NMOS/PMOS W L
+M1 D G gnd gnd CMOSN W=1.8u L=0.18u
+
+.dc VGS 0 1.8 0.005
+
+.control
+run
+plot -VDS#branch
+.endc

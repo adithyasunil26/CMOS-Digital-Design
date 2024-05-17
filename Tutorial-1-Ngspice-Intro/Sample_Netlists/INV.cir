@@ -1,0 +1,18 @@
+*INVERTER 
+
+.include ../../TSMC_180nm.txt
+
+Vdd vdd gnd 1.8V
+vin x 0 pulse 0 1.8 0ns 100ns 100ns 10us 20us
+
+M1 y x gnd gnd CMOSN W=0.9u L=0.18u
+M2 y x vdd vdd CMOSP W=1.8u L=0.18u
+
+Cout y gnd 100f
+
+.tran 10n 60u
+
+.control
+run 
+plot v(y) v(x)
+.endc
