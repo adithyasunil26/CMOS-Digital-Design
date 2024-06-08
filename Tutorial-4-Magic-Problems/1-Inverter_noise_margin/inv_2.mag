@@ -1,0 +1,12 @@
+magic
+tech scmos
+timestamp 1613771017
+use inv  inv_0 ../inv
+timestamp 1613770854
+transform 1 0 9 0 1 45
+box -9 -45 21 61
+use inv  inv_1
+timestamp 1613770854
+transform 1 0 39 0 1 45
+box -9 -45 21 61
+<< end >>

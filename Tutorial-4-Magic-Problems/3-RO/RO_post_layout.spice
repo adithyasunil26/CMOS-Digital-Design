@@ -1,0 +1,415 @@
+* SPICE3 file created from 5.ext - technology: scmos
+
+.include TSMC_180nm.txt
+.param SUPPLY=1.8V
+.global gnd vdd
+.option scale=0.09u
+
+Vdd vdd gnd 'SUPPLY'
+
+
+M1000 5inv_11/input 5inv_9/output gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=1550 ps=930
+M1001 5inv_11/input 5inv_9/output vdd 5inv_10/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=3875 ps=1860
+M1002 5inv_3/input 5inv_2/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1003 5inv_3/input 5inv_2/input vdd 5inv_2/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1004 5inv_2/input 5inv_1/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1005 5inv_2/input 5inv_1/input vdd 5inv_1/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1006 5inv_12/input 5inv_11/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1007 5inv_12/input 5inv_11/input vdd 5inv_11/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1008 5inv_4/input 5inv_3/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1009 5inv_4/input 5inv_3/input vdd 5inv_3/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1010 5inv_13/input 5inv_12/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1011 5inv_13/input 5inv_12/input vdd 5inv_12/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1012 5inv_5/input 5inv_4/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1013 5inv_5/input 5inv_4/input vdd 5inv_4/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1014 5inv_14/input 5inv_13/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1015 5inv_14/input 5inv_13/input vdd 5inv_13/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1016 5inv_6/input 5inv_5/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1017 5inv_6/input 5inv_5/input vdd 5inv_5/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1018 5inv_15/input 5inv_14/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1019 5inv_15/input 5inv_14/input vdd 5inv_14/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1020 5inv_7/input 5inv_6/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1021 5inv_7/input 5inv_6/input vdd 5inv_6/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1022 5inv_16/input 5inv_15/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1023 5inv_16/input 5inv_15/input vdd 5inv_15/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1024 5inv_8/input 5inv_7/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1025 5inv_8/input 5inv_7/input vdd 5inv_7/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1026 5inv_17/input 5inv_16/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1027 5inv_17/input 5inv_16/input vdd 5inv_16/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1028 5inv_9/input 5inv_8/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1029 5inv_9/input 5inv_8/input vdd 5inv_8/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1030 5inv_18/input 5inv_17/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1031 5inv_18/input 5inv_17/input vdd 5inv_17/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1032 5inv_9/output 5inv_9/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1033 5inv_9/output 5inv_9/input vdd 5inv_9/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1034 5inv_20/input 5inv_19/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1035 5inv_20/input 5inv_19/input vdd 5inv_19/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1036 5inv_19/input 5inv_18/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1037 5inv_19/input 5inv_18/input vdd 5inv_18/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1038 5inv_21/input 5inv_20/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1039 5inv_21/input 5inv_20/input vdd 5inv_20/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1040 5inv_22/input 5inv_21/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1041 5inv_22/input 5inv_21/input vdd 5inv_21/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1042 5inv_23/input 5inv_22/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1043 5inv_23/input 5inv_22/input vdd 5inv_22/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1044 5inv_24/input 5inv_23/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1045 5inv_24/input 5inv_23/input vdd 5inv_23/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1046 5inv_25/input 5inv_24/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1047 5inv_25/input 5inv_24/input vdd 5inv_24/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1048 5inv_26/input 5inv_25/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1049 5inv_26/input 5inv_25/input vdd 5inv_25/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1050 5inv_27/input 5inv_26/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1051 5inv_27/input 5inv_26/input vdd 5inv_26/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1052 5inv_29/input 5inv_28/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1053 5inv_29/input 5inv_28/input vdd 5inv_28/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1054 5inv_28/input 5inv_27/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1055 5inv_28/input 5inv_27/input vdd 5inv_27/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1056 5inv_30/input 5inv_29/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1057 5inv_30/input 5inv_29/input vdd 5inv_29/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1058 5inv_0/input 5inv_30/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1059 5inv_0/input 5inv_30/input vdd 5inv_30/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1060 5inv_1/input 5inv_0/input gnd Gnd CMOSN w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1061 5inv_1/input 5inv_0/input vdd 5inv_0/w_n6_n6# CMOSP w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+C0 5inv_29/input vdd 0.31fF
+C1 5inv_23/w_n6_n6# 5inv_24/input 0.05fF
+C2 5inv_14/w_n6_n6# vdd 0.07fF
+C3 5inv_23/input 5inv_22/input 0.05fF
+C4 5inv_5/input vdd 0.31fF
+C5 5inv_28/input 5inv_29/input 0.05fF
+C6 5inv_4/input vdd 0.31fF
+C7 5inv_22/w_n6_n6# vdd 0.07fF
+C8 5inv_21/input gnd 0.19fF
+C9 5inv_1/input 5inv_0/input 0.05fF
+C10 5inv_20/w_n6_n6# vdd 0.07fF
+C11 5inv_18/input gnd 0.19fF
+C12 5inv_8/input gnd 0.19fF
+C13 5inv_19/w_n6_n6# vdd 0.07fF
+C14 5inv_9/input gnd 0.19fF
+C15 5inv_16/w_n6_n6# vdd 0.07fF
+C16 5inv_7/input gnd 0.19fF
+C17 5inv_17/w_n6_n6# vdd 0.07fF
+C18 5inv_15/w_n6_n6# vdd 0.07fF
+C19 5inv_6/input gnd 0.19fF
+C20 5inv_23/input 5inv_24/input 0.05fF
+C21 5inv_27/input vdd 0.31fF
+C22 5inv_22/w_n6_n6# 5inv_22/input 0.06fF
+C23 5inv_25/input gnd 0.19fF
+C24 5inv_28/input vdd 0.31fF
+C25 5inv_21/w_n6_n6# 5inv_21/input 0.06fF
+C26 5inv_14/w_n6_n6# 5inv_15/input 0.05fF
+C27 5inv_1/input 5inv_2/input 0.05fF
+C28 5inv_11/input 5inv_9/output 0.05fF
+C29 5inv_24/w_n6_n6# vdd 0.07fF
+C30 5inv_20/w_n6_n6# 5inv_20/input 0.06fF
+C31 5inv_22/input vdd 0.31fF
+C32 5inv_28/input 5inv_27/input 0.05fF
+C33 5inv_18/w_n6_n6# 5inv_18/input 0.06fF
+C34 5inv_19/w_n6_n6# 5inv_20/input 0.05fF
+C35 5inv_20/input vdd 0.31fF
+C36 5inv_19/w_n6_n6# 5inv_19/input 0.06fF
+C37 5inv_19/input vdd 0.31fF
+C38 5inv_30/input 5inv_0/input 0.05fF
+C39 5inv_8/w_n6_n6# 5inv_8/input 0.06fF
+C40 5inv_8/w_n6_n6# 5inv_9/input 0.05fF
+C41 5inv_9/w_n6_n6# 5inv_9/input 0.06fF
+C42 5inv_16/input vdd 0.31fF
+C43 5inv_17/input vdd 0.31fF
+C44 5inv_14/input 5inv_13/w_n6_n6# 0.05fF
+C45 5inv_16/w_n6_n6# 5inv_16/input 0.06fF
+C46 5inv_7/w_n6_n6# 5inv_8/input 0.05fF
+C47 5inv_16/w_n6_n6# 5inv_17/input 0.05fF
+C48 5inv_17/w_n6_n6# 5inv_17/input 0.06fF
+C49 5inv_15/input vdd 0.31fF
+C50 5inv_7/w_n6_n6# 5inv_7/input 0.06fF
+C51 5inv_15/w_n6_n6# 5inv_16/input 0.05fF
+C52 5inv_15/w_n6_n6# 5inv_15/input 0.06fF
+C53 5inv_6/w_n6_n6# 5inv_7/input 0.05fF
+C54 5inv_14/input gnd 0.19fF
+C55 5inv_3/input 5inv_2/input 0.05fF
+C56 5inv_1/w_n6_n6# 5inv_2/input 0.05fF
+C57 5inv_11/input 5inv_10/w_n6_n6# 0.05fF
+C58 5inv_24/input vdd 0.31fF
+C59 5inv_26/w_n6_n6# vdd 0.07fF
+C60 5inv_6/w_n6_n6# 5inv_6/input 0.06fF
+C61 5inv_9/output gnd 0.19fF
+C62 5inv_19/input 5inv_20/input 0.05fF
+C63 5inv_12/w_n6_n6# vdd 0.07fF
+C64 5inv_1/input gnd 0.19fF
+C65 5inv_26/w_n6_n6# 5inv_27/input 0.05fF
+C66 5inv_25/w_n6_n6# 5inv_25/input 0.06fF
+C67 vdd 5inv_0/input 0.31fF
+C68 5inv_8/input 5inv_9/input 0.05fF
+C69 5inv_14/input 5inv_13/input 0.05fF
+C70 5inv_24/w_n6_n6# 5inv_24/input 0.06fF
+C71 5inv_7/input 5inv_8/input 0.05fF
+C72 5inv_16/input 5inv_17/input 0.05fF
+C73 5inv_15/input 5inv_16/input 0.05fF
+C74 5inv_6/input 5inv_7/input 0.05fF
+C75 5inv_3/input 5inv_2/w_n6_n6# 0.05fF
+C76 5inv_26/input vdd 0.31fF
+C77 5inv_23/input gnd 0.19fF
+C78 5inv_9/output 5inv_9/w_n6_n6# 0.05fF
+C79 5inv_12/input vdd 0.31fF
+C80 5inv_3/input gnd 0.19fF
+C81 5inv_2/input vdd 0.31fF
+C82 5inv_26/input 5inv_27/input 0.05fF
+C83 5inv_11/input vdd 0.31fF
+C84 5inv_30/input gnd 0.19fF
+C85 5inv_29/input gnd 0.19fF
+C86 5inv_5/input gnd 0.19fF
+C87 5inv_13/w_n6_n6# vdd 0.07fF
+C88 5inv_4/input gnd 0.19fF
+C89 5inv_9/output 5inv_9/input 0.05fF
+C90 5inv_1/input 5inv_0/w_n6_n6# 0.05fF
+C91 5inv_2/w_n6_n6# vdd 0.07fF
+C92 5inv_5/w_n6_n6# 5inv_6/input 0.05fF
+C93 5inv_11/w_n6_n6# vdd 0.07fF
+C94 5inv_26/w_n6_n6# 5inv_26/input 0.06fF
+C95 5inv_27/input gnd 0.19fF
+C96 5inv_28/input gnd 0.19fF
+C97 5inv_12/w_n6_n6# 5inv_12/input 0.06fF
+C98 5inv_13/input vdd 0.31fF
+C99 5inv_22/input gnd 0.19fF
+C100 5inv_21/w_n6_n6# vdd 0.07fF
+C101 5inv_20/input gnd 0.19fF
+C102 5inv_18/w_n6_n6# vdd 0.07fF
+C103 5inv_19/input gnd 0.19fF
+C104 5inv_8/w_n6_n6# vdd 0.07fF
+C105 5inv_16/input gnd 0.19fF
+C106 5inv_9/w_n6_n6# vdd 0.07fF
+C107 5inv_17/input gnd 0.19fF
+C108 5inv_7/w_n6_n6# vdd 0.07fF
+C109 5inv_15/input gnd 0.19fF
+C110 5inv_6/w_n6_n6# vdd 0.07fF
+C111 5inv_21/w_n6_n6# 5inv_22/input 0.05fF
+C112 5inv_25/w_n6_n6# vdd 0.07fF
+C113 5inv_24/input gnd 0.19fF
+C114 5inv_20/w_n6_n6# 5inv_21/input 0.05fF
+C115 5inv_12/input 5inv_11/input 0.05fF
+C116 5inv_21/input vdd 0.31fF
+C117 5inv_5/input 5inv_6/input 0.05fF
+C118 5inv_19/input 5inv_18/w_n6_n6# 0.05fF
+C119 5inv_18/input vdd 0.31fF
+C120 vdd 5inv_0/w_n6_n6# 0.07fF
+C121 5inv_0/input gnd 13.82fF
+C122 5inv_17/w_n6_n6# 5inv_18/input 0.05fF
+C123 5inv_8/input vdd 0.31fF
+C124 5inv_9/input vdd 0.31fF
+C125 5inv_30/w_n6_n6# 5inv_30/input 0.06fF
+C126 5inv_7/input vdd 0.31fF
+C127 5inv_29/w_n6_n6# 5inv_30/input 0.05fF
+C128 5inv_6/input vdd 0.31fF
+C129 5inv_12/w_n6_n6# 5inv_13/input 0.05fF
+C130 5inv_9/output 5inv_10/w_n6_n6# 0.06fF
+C131 5inv_29/w_n6_n6# 5inv_29/input 0.06fF
+C132 5inv_21/input 5inv_22/input 0.05fF
+C133 5inv_25/input vdd 0.31fF
+C134 5inv_2/input 5inv_2/w_n6_n6# 0.06fF
+C135 5inv_23/w_n6_n6# 5inv_23/input 0.06fF
+C136 5inv_20/input 5inv_21/input 0.05fF
+C137 5inv_26/input gnd 0.19fF
+C138 5inv_3/w_n6_n6# 5inv_3/input 0.06fF
+C139 5inv_12/input 5inv_11/w_n6_n6# 0.05fF
+C140 5inv_1/input 5inv_1/w_n6_n6# 0.06fF
+C141 5inv_12/input gnd 0.19fF
+C142 5inv_2/input gnd 0.19fF
+C143 5inv_11/input 5inv_11/w_n6_n6# 0.06fF
+C144 5inv_19/input 5inv_18/input 0.05fF
+C145 5inv_11/input gnd 0.19fF
+C146 5inv_14/input 5inv_14/w_n6_n6# 0.06fF
+C147 5inv_17/input 5inv_18/input 0.05fF
+C148 5inv_5/w_n6_n6# 5inv_5/input 0.06fF
+C149 5inv_24/w_n6_n6# 5inv_25/input 0.05fF
+C150 5inv_30/w_n6_n6# vdd 0.07fF
+C151 5inv_29/w_n6_n6# vdd 0.07fF
+C152 5inv_12/input 5inv_13/input 0.05fF
+C153 5inv_3/w_n6_n6# 5inv_4/input 0.05fF
+C154 5inv_5/w_n6_n6# vdd 0.07fF
+C155 5inv_14/input vdd 0.31fF
+C156 5inv_28/w_n6_n6# 5inv_29/input 0.05fF
+C157 5inv_9/output vdd 0.31fF
+C158 5inv_23/w_n6_n6# vdd 0.07fF
+C159 5inv_3/w_n6_n6# vdd 0.07fF
+C160 5inv_1/input vdd 0.31fF
+C161 5inv_0/input 5inv_0/w_n6_n6# 0.06fF
+C162 5inv_24/input 5inv_25/input 0.05fF
+C163 5inv_25/w_n6_n6# 5inv_26/input 0.05fF
+C164 5inv_13/w_n6_n6# 5inv_13/input 0.06fF
+C165 5inv_4/w_n6_n6# 5inv_5/input 0.05fF
+C166 5inv_29/input 5inv_30/input 0.05fF
+C167 5inv_4/w_n6_n6# 5inv_4/input 0.06fF
+C168 5inv_27/w_n6_n6# vdd 0.07fF
+C169 5inv_23/input 5inv_22/w_n6_n6# 0.05fF
+C170 5inv_3/input 5inv_4/input 0.05fF
+C171 5inv_28/w_n6_n6# vdd 0.07fF
+C172 5inv_13/input gnd 0.19fF
+C173 5inv_27/w_n6_n6# 5inv_27/input 0.06fF
+C174 5inv_4/w_n6_n6# vdd 0.07fF
+C175 5inv_10/w_n6_n6# vdd 0.07fF
+C176 5inv_23/input vdd 0.31fF
+C177 5inv_14/input 5inv_15/input 0.05fF
+C178 5inv_28/input 5inv_27/w_n6_n6# 0.05fF
+C179 5inv_3/input vdd 0.31fF
+C180 5inv_1/w_n6_n6# vdd 0.07fF
+C181 5inv_28/w_n6_n6# 5inv_28/input 0.06fF
+C182 5inv_30/w_n6_n6# 5inv_0/input 0.05fF
+C183 5inv_30/input vdd 0.31fF
+C184 5inv_25/input 5inv_26/input 0.05fF
+C185 5inv_4/input 5inv_5/input 0.05fF
+C186 5inv_0/w_n6_n6# Gnd 0.89fF
+C187 gnd Gnd 4.03fF
+C188 5inv_0/input Gnd 3.90fF
+C189 vdd Gnd 1.62fF
+C190 5inv_30/input Gnd 0.23fF
+C191 5inv_30/w_n6_n6# Gnd 0.89fF
+C192 5inv_29/input Gnd 0.23fF
+C193 5inv_29/w_n6_n6# Gnd 0.89fF
+C194 5inv_27/input Gnd 0.23fF
+C195 5inv_27/w_n6_n6# Gnd 0.89fF
+C196 5inv_28/input Gnd 0.23fF
+C197 5inv_28/w_n6_n6# Gnd 0.89fF
+C198 5inv_26/input Gnd 0.23fF
+C199 5inv_26/w_n6_n6# Gnd 0.89fF
+C200 5inv_25/input Gnd 0.23fF
+C201 5inv_25/w_n6_n6# Gnd 0.89fF
+C202 5inv_24/input Gnd 0.23fF
+C203 5inv_24/w_n6_n6# Gnd 0.89fF
+C204 5inv_23/input Gnd 0.23fF
+C205 5inv_23/w_n6_n6# Gnd 0.89fF
+C206 5inv_22/input Gnd 0.23fF
+C207 5inv_22/w_n6_n6# Gnd 0.89fF
+C208 5inv_21/input Gnd 0.23fF
+C209 5inv_21/w_n6_n6# Gnd 0.89fF
+C210 5inv_20/input Gnd 0.23fF
+C211 5inv_20/w_n6_n6# Gnd 0.89fF
+C212 5inv_18/input Gnd 0.23fF
+C213 5inv_18/w_n6_n6# Gnd 0.89fF
+C214 5inv_19/input Gnd 0.23fF
+C215 5inv_19/w_n6_n6# Gnd 0.89fF
+C216 5inv_9/input Gnd 0.23fF
+C217 5inv_9/w_n6_n6# Gnd 0.89fF
+C218 5inv_17/input Gnd 0.23fF
+C219 5inv_17/w_n6_n6# Gnd 0.89fF
+C220 5inv_8/input Gnd 0.23fF
+C221 5inv_8/w_n6_n6# Gnd 0.89fF
+C222 5inv_16/input Gnd 0.23fF
+C223 5inv_16/w_n6_n6# Gnd 0.89fF
+C224 5inv_7/input Gnd 0.23fF
+C225 5inv_7/w_n6_n6# Gnd 0.89fF
+C226 5inv_15/input Gnd 0.23fF
+C227 5inv_15/w_n6_n6# Gnd 0.89fF
+C228 5inv_6/input Gnd 0.23fF
+C229 5inv_6/w_n6_n6# Gnd 0.89fF
+C230 5inv_14/input Gnd 0.23fF
+C231 5inv_14/w_n6_n6# Gnd 0.89fF
+C232 5inv_5/input Gnd 0.23fF
+C233 5inv_5/w_n6_n6# Gnd 0.89fF
+C234 5inv_13/input Gnd 0.23fF
+C235 5inv_13/w_n6_n6# Gnd 0.89fF
+C236 5inv_4/input Gnd 0.23fF
+C237 5inv_4/w_n6_n6# Gnd 0.89fF
+C238 5inv_12/input Gnd 0.23fF
+C239 5inv_12/w_n6_n6# Gnd 0.89fF
+C240 5inv_3/input Gnd 0.23fF
+C241 5inv_3/w_n6_n6# Gnd 0.89fF
+C242 5inv_11/input Gnd 0.23fF
+C243 5inv_11/w_n6_n6# Gnd 0.89fF
+C244 5inv_1/input Gnd 0.23fF
+C245 5inv_1/w_n6_n6# Gnd 0.89fF
+C246 5inv_2/input Gnd 0.23fF
+C247 5inv_2/w_n6_n6# Gnd 0.89fF
+C248 5inv_9/output Gnd 0.23fF
+C249 5inv_10/w_n6_n6# Gnd 0.89fF
+
+.tran 10ps 15ns 
+.ic v(5inv_1/input) 0V
+
+*measuring oscillation time period and finding frequency of oscillation
+.measure tran tosc
++TRIG v(5inv_1/input) VAL='SUPPLY' RISE=2 TARG v(5inv_1/input) VAL='SUPPLY' RISE=3
+.measure tran fro
++param='1/tosc' goal=0
+
+*Measuring prop delays for I4
+.measure tran tpdr
++TRIG v(5inv_1/input) VAL='0' RISE=2 TARG v(5inv_2/input) VAL='SUPPLY' RISE=2
+.measure tran tpdf
++TRIG v(5inv_1/input) VAL='SUPPLY' FALL=1 TARG v(5inv_2/input) VAL='0' FALL=1
+.measure tran tpd 
++param='(tpdr+tpdf)/2' goal=0
+.measure tran calcfosc
++param='1/(62*tpd)' goal =0
+
+.control
+set hcopypscolor = 1 
+set color0=white 
+set color1=black 
+
+run
+set curplottitle="Adithya-2019102005-2"
+plot v(5inv_1/input) v(5inv_2/input)
+
+hardcopy 5.eps v(5inv_1/input) 
+.endc
